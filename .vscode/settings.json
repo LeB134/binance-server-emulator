@@ -1,0 +1,10 @@
+{
+    "githubPullRequests.ignoredPullRequestBranches": [
+        "master"
+    ],
+    "files.associations": {
+        "private-lib-core.h": "c"
+    },
+    "C_Cpp.dimInactiveRegions": false,
+    "makefile.makefilePath": "makefile.makefilePath"
+}

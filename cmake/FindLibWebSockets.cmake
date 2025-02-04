@@ -35,8 +35,10 @@ IF ( LIBWEBSOCKETS_FOUND )
     )
 ENDIF ( )
 
-find_package_handle_standard_args(LibWebSockets
-	DEFAULT_MSG
-	LIBWEBSOCKETS_INCLUDE_DIR
-	LIBWEBSOCKETS_LIBRARIES)
-		
+find_package_handle_standard_args(LibWebSockets_FOUND
+    DEFAULT_MSG
+    LIBWEBSOCKETS_INCLUDE_DIR
+    LIBWEBSOCKETS_LIBRARIES)
+
+# mark_as_advanced(LIBWEBSOCKETS_INCLUDE_DIR LIBWEBSOCKETS_LIBRARIES)
+

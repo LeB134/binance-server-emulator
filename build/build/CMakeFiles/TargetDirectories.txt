@@ -1,0 +1,2 @@
+/workspaces/binance-server-emulator/build/build/CMakeFiles/rebuild_cache.dir
+/workspaces/binance-server-emulator/build/build/CMakeFiles/edit_cache.dir
